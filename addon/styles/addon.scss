@@ -1,0 +1,21 @@
+@import "pod-styles";
+html, body {
+  font-family: "Comic Sans","Comic Sans MS","Chalkboard","ChalkboardSE-Regular","Marker Felt","Purisa","URW Chancery L",cursive,sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.color-black { color: black; }
+.color-white { color: white; }
+.color-grey { color: grey; }
+.color-lightgrey { color: lightgrey; }
+.color-yellow { color: yellow; }
+.color-orange { color: orange; }
+
+.bg-black { background: #000; }
+.bg-orange { background: orange; }
+.bg-yellow { background: yellow; }
+.bg-fire { background: #000 url(../ember-geo/bg-fire.gif) top left; }
+.bg-rainbow { background: #000 url(../ember-geo/bg-rainbow.gif) top left; }
+.bg-snow { background: #000 url(../ember-geo/bg-snow.gif) top left; }
+.bg-stars { background: #000 url(../ember-geo/bg-stars.gif) top left; }

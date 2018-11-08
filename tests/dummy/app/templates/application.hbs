@@ -1,3 +1,29 @@
-<h2 id="title">Welcome to Ember</h2>
+{{#geo-nav background="snow" color="orange" as |nav|}}
+  {{#nav.item}}Brand{{/nav.item}}
+  {{#nav.item}}Item{{/nav.item}}
+  {{#nav.item}}Item{{/nav.item}}
+  {{#nav.item}}Item{{/nav.item}}
+{{/geo-nav}}
+
+{{#geo-button}}This is a button{{/geo-button}}
+
+{{#geo-marquee}}This is scrolling omg wow{{/geo-marquee}}
+
+{{#geo-blink}}
+  this is blinking omg wow
+{{/geo-blink}}
+
+{{#geo-card background="stars" textColor="orange" as |card|}}
+  {{#card.title}}Here is a card title{{/card.title}}
+  {{#card.content}}
+    {{#geo-blink}}
+      <p>alsd fjlas djflasjd flkasjd flkaj sdlkfj alskd jflkasd jflk asjdlk fjaslkd jflkas djlkf asjdklf</p>
+      <p>alsd fjlas djflasjd flkasjd flkaj sdlkfj alskd jflkasd jflk asjdlk fjaslkd jflkas djlkf asjdklf</p>
+      <p>alsd fjlas djflasjd flkasjd flkaj sdlkfj alskd jflkasd jflk asjdlk fjaslkd jflkas djlkf asjdklf</p>
+    {{/geo-blink}}
+    {{#geo-button}}CLICK ME!{{/geo-button}}
+  {{/card.content}}
+{{/geo-card}}
+
 
 {{outlet}}

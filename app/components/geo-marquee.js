@@ -1,0 +1,1 @@
+export { default } from 'ember-geo/components/geo-marquee';
